@@ -83,40 +83,35 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 0;
+    width: 350px;
   }
 
-#lezioni .row>.left,
-#lezioni .row>.right {
-  width: auto;
-  margin-bottom: 20px;
-}
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: auto;
+    margin-bottom: 20px;
+  }
 
-#steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  width: auto;
-}
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: auto;
+    margin-bottom: 20px;
+  }
 
-#steps .left,
-#steps .central,
-#steps .right {
-  margin-bottom: 20px;
-}
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin-top: 20px;
-}
+  #why .row img {
+    padding: 10px;
+  }
 
-#why .row img {
-  background-color: #428bca;
-  border-radius: 50%;
-  padding: 10px
+  img {
+    height: 100px;
+  }
 }
-
-img {
-  height: 150px;
-}
-}
+/* /Versione Smartphone */
