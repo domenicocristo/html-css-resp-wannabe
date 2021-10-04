@@ -87,11 +87,7 @@ img {
   }
 
   #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: auto;
-    margin-bottom: 20px;
-  }
-
+  #lezioni .row>.right,
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
