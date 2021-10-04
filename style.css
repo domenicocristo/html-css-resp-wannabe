@@ -71,3 +71,42 @@ img {
 .clear {
   clear: both;
 }
+
+/* Versione Smartphone */
+@media screen and (max-width: 420px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+#lezioni .row>.left,
+#lezioni .row>.right {
+  width: auto;
+  margin-bottom: 20px;
+}
+
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  width: auto;
+}
+
+#steps .left,
+#steps .central,
+#steps .right {
+  margin-bottom: 20px;
+}
+
+#why .row>.first,
+#why .row>.second,
+#why .row>.third {
+  width: 100%;
+  margin-top: 20px;
+}
+}
